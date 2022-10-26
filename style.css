@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dark-background-color {
+    background-color: #1f2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary-text,
+.header-link-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.button-color,
+.call-to-action {
+    background-color: #3882f6;
+}
+
+.header-information-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5% 17.5%;
+    margin: 5% 0%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-section p {
+    align-self: flex-end;
+    font-size: 24px;
+    padding-right: 1%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+}
+
+header figure img {
+    height: 50px;
+    filter: invert(1);
+    animation-name: logo-scale;
+    animation-duration: 1s;
+}
+
+header nav menu {
+    display: flex;
+    gap: 20px;
+}
+
+header nav menu li {
+    list-style: none;
+}
+
+header nav menu li a{
+    text-decoration: none;
+}
+
+header nav menu li a:hover,
+header figure img:hover {
+    color: #3882f6;
+}
+
+article.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 10% 7.5%;
+}
+
+article.hero section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article.hero section p {
+    line-height: 125%;
+}
+
+article.hero section a {
+    text-decoration: none;
+    background-color: #3882f6;
+    padding: 6px 30px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+article.hero section a:hover,
+aside.call-to-action a.cta-btn:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
+    transition: 0.5s ease-in-out;
+}
+
+article.hero figure img {
+    height: 250px;
+    border-radius: 5px;
+}
+
+article.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    gap: 30px;
+}
+
+article.information h2 {
+    margin: 1%;
+}
+
+article.information section {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+article.information section figure {
+    width: 20%;
+    transition: 1s;
+}
+
+article.information section figure img {
+    width: 100%;
+    border: solid 5px #3882f6;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+article.information section figure:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+article.information section figure img:hover{
+background-color: #1f2937;
+}
+
+article.information section figure figcaption {
+    color: #8f96a0;
+    text-align: center;
+}
+
+aside.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto 5%;
+    border-radius: 10px;
+    padding: 5% 10%;
+}
+
+aside.call-to-action section p.hero-main-text {
+    font-size: 24px;
+    margin-bottom: 0.5%;
+}
+
+aside.call-to-action a.cta-btn {
+    border: solid 2px #f9faf8;
+    color: #f9faf8;
+    padding: 6px 30px;
+    border-radius: 10px;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+footer nav {
+    display: none;
+}
+
+
+
+
